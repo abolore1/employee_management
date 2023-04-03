@@ -1,0 +1,102 @@
+.successful {
+  background-color: green;
+  color: white;
+  font-size: 1.3em;
+}
+
+.error {
+  background-color: red;
+  color: #fff;
+  font-size: 1.3em;
+  
+}
+
+
+@media only screen and (max-width:564px) {
+  body{
+    display: flex;
+    justify-content: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    width: 270px !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+
+  }
+
+  .form-control {
+    width: 200px !important;
+  }
+
+  .delete-confirm {
+
+    width: 230px !important;
+    margin-left: 30px;
+  }
+
+  .plus-minus {
+    display: flex;
+    position: absolute;
+    left: 230px;
+    top: -78px;
+  }
+
+  #add-modal {
+    flex-wrap: wrap;
+
+  }
+
+  .education-box {
+    margin-top: -65px;
+  }
+
+  #heading{
+   width: 500px;
+   margin: auto;
+  }
+
+  .card-width{
+    width: 293px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width:85px) {
+  #heading{
+    width: 50px;
+    margin-left: 0;
+   
+   }
+}
+
+@media only screen and (max-width:395px) {
+  body{
+    display: grid;
+    place-items: center;
+  }
+  .error,.successful{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+   
+   }
+   .close-btn{
+    margin-right: 178px;
+   }
+   .btn-group{
+    margin-right: -25px;
+   }
+}
+
+@media only screen and (max-width:564px) {
+  .btn-group{
+    margin-right: -25px;
+   }
+}
